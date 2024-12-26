@@ -51,7 +51,7 @@ namespace BlogPosts
             app.UseAuthorization();
 
 
-            app.MapControllers().RequireAuthorization();
+            app.MapControllers().RequireAuthorization(); //Added to authorize all controllers
 
             app.Run();
         }
